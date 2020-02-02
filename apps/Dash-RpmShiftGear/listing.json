@@ -1,10 +1,10 @@
 {
 "doc": "JavaScriptDoc/Dash-BarGauges-DigitalOverlay.html",
-"name": "Dash-BarGauges-DigitalOverlay",
-"description": "Dash Bar Gauges With Digital Overlay",
-"description-de": "Instrumententafel - Armaturenbrett mit digitalen Anzeigen",
-"url": "apps/Dash-BarGauges-DigitalOverlay?",
-"icon": "apps/Dash-BarGauges-DigitalOverlay/icon.png",
+"name": "Dash-RpmShiftGear",
+"description": "Dash Rpm, shift lights and gear",
+"description-de": "Instrumententafel - Armaturenbrett mit Rpm, Shift lights und Ganganzeige",
+"url": "apps/Dash-RpmShiftGear?",
+"icon": "apps/Dash-RpmShiftGear/icon.png",
 "width": 1280,
 "height": 768,
 "args": ""
