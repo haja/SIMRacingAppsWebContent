@@ -1,0 +1,55 @@
+
+.SIMRacingApps-App-Dash-RpmShiftGear-body {
+    background: url(Black-Background-Metal-800x480.png);
+}
+
+.SIMRacingApps-App-Dash-RpmShiftGear-Left {
+    width:      30%;
+    position:   absolute;
+    left:       0%;
+}
+
+.SIMRacingApps-App-Dash-RpmShiftGear-Right {
+    width:      70%;
+    position:   absolute;
+    left:       30%;
+}
+
+.SIMRacingApps-App-Dash-RpmShiftGear {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    position: relative;
+    z-index:-1;
+}
+
+.SIMRacingApps-App-Dash-RpmShiftGear-ShiftLights {
+    z-index:    11;
+    width:      80%;
+    left:       10%;
+}
+
+.SIMRacingApps-App-Dash-RpmShiftGear-ShiftLight {
+    z-index: 5;
+    top: -40%;
+    widht: 50%;
+    position: absolute;
+}
+
+.SIMRacingApps-App-Dash-RpmShiftGear-Tach {
+    z-index:    10;
+}
+
+
+.SIMRacingApps-App-Dash-RpmShiftGear-Gear {
+    font-family: 'Droid Sans Mono', Menlo, Consolas, 'Courier New', Courier, monospace, sans-serif;
+    /*
+    width:      80%;
+    left:       10%;
+    top:        20%;
+    z-index:    1;
+    position:   absolute;
+    overflow:   hidden;
+    */
+}
+
