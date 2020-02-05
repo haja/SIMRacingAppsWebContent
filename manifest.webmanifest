@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "SIMRacingApps",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "SRA-Logo-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "name": "SIMRacingApps",
+  "short_name": "SRA",
+  "start_url": "/SIMRacingApps"
+}
