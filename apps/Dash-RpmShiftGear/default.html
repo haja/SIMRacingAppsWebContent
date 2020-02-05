@@ -59,7 +59,7 @@
                 data-sra-args-interval="{{sraArgsInterval||sraInterval||16}}"
         ></sra-bar-gauge>
         </div>
-        <button onclick="console.log('go ful')">
+        <button data-ng-click="onFullscreen()" data-ng-if="isFullscreenSupported() && !isFullscreen()">
             maximize</button>
         <!--
         <div>

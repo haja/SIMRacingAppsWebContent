@@ -26,9 +26,19 @@ function( angular,  SIMRacingApps) {
                sraDispatcher.loadTranslations("/SIMRacingApps/apps/Dash-RpmShiftGear","text",function(path) {
                    $scope.translations = sraDispatcher.getTranslation(path,"auto");
                });
-               $scope.fullscreen = function() {
+               $scope.onFullscreen = function() {
                    console.log("req fullscreen");
-                   angular.element("#SIMRacingApps-App").requestFullscreen();
+                   document.body.requestFullscreen().then(function (data) {
+                       console.log("fullscreen request:", data);
+                   }).catch(function (data) {
+                       console.log('fullscreen req cancelled', data);
+                   });
+               };
+               $scope.isFullscreenSupported = function() {
+                   return document.fullscreenEnabled;
+               };
+               $scope.isFullscreen = function () {
+                    return document.fullscreenElement !== null;
                };
         }]);
 
